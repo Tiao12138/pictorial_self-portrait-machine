@@ -21,13 +21,42 @@
   <body>
 
     <style>
+        .headlink {
+            display: flex;
+            align-items: baseline; /* Align all elements to the bottom */
+            gap: 1vw; /* Adjust spacing between elements */
+        }
+
+        .headlink p {
+            margin: 0; /* Remove default margins */
+        }
+
+        .headlink a img {
+            height: 1.5vw; /* Use consistent sizing with text */
+            width: 1.5vw;
+            padding: 0; /* Remove padding that may push it up */
+        }
+
+        .headlink a img:hover {
+           opacity: 0.5;
+        }
+
         b{
-        display: inline;
+            display: inline;
         }
     </style>
     
     <div class="contentsec">
         <div class="pros">
+          <div class="col0" style="width: 100vw;">
+            <div class="headlink">
+                <p style="color: #333; font-size: 2.1vw; margin-right: 1.1vw;">MINGZHU FAN</p>
+                <p style="color: #333; font-size: 1.4vw;">full portfolio</p>
+                <a href="https://tiao12138.github.io/Portfolio_Mingzhu-Fan_ABOUT-ME/">
+                    <img src="images/Iconlink.svg" alt="" style="height: 1.6vh; width: 1.6vh; padding-top: 1vh;">
+                </a>
+            </div>
+        </div>
         <div class="col0">
             <div class ="col1">
             <img src="images/p2-1/p2-1-1.jpg" alt="picture of the installation" class = "col1pic">
